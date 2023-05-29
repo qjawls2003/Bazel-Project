@@ -5,5 +5,5 @@ Projects using Bazel
 # Web Enumeration Automator
 
 ```
-bazel run //webexploits:main <target IP> [nikto,durbuster,curl]
+bazel run //webexploits:main <target IP> [nikto,durbuster,curl, wfuzz]
 ```
