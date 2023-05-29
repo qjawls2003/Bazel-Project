@@ -6,10 +6,10 @@ Projects using Bazel
 
 ## Dependencies
 
--Python 3.8
--Nmap
--curl
--wfuzz
+* Python 3.8
+* Nmap
+* curl
+* wfuzz
 
 ```
 sudo apt-get install nmap
