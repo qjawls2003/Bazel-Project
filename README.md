@@ -21,6 +21,29 @@ sudo apt-get install wfuzz
 pip3 install pycurl --upgrade
 ```
 
+### Run
+
+Use following command for all:
 ```
-bazel run //webexploits:main <target IP> [nikto,durbuster,curl, wfuzz]
+bazel run //webexploits:main <target IP> nikto dirbuster curl wfuzz
+```
+
+For just nmap:
+```
+bazel run //webexploits:main <target IP>
+```
+
+For dirbuster (will run nmap first):
+```
+bazel run //webexploits:main <target IP> dirbuster
+```
+
+For curl (will run nmap first):
+```
+bazel run //webexploits:main <target IP> curl
+```
+
+For wfuzz (will require hostname):
+```
+bazel run //webexploits:main <target hostname> wfuzz
 ```
