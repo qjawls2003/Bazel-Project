@@ -43,7 +43,7 @@ For curl (will run nmap first):
 bazel run //webexploits:main <target IP> curl
 ```
 
-For wfuzz (will require hostname):
+For wfuzz (will require hostname) subdomain enumeration:
 ```
 bazel run //webexploits:main <target hostname> wfuzz
 ```
