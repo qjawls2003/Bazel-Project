@@ -1,6 +1,7 @@
 # Bazel-Project
 Projects using Bazel
 
+This repository contains a tool for a quick enumeration of web servers for penetration testing. 
 
 # Web Enumeration Automator
 
